@@ -38,7 +38,11 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Patient Manager</h1>
+      <h1 style={{ marginBottom: "0px" }}>Patient Manager</h1>
+      <p className="created">
+        Crafted by{" "}
+        <a href="https://www.linkedin.com/in/kevintorres96/">Kevin Torres</a>
+      </p>
       <div className="container">
         <div className="row">
           <div className="one-half column">

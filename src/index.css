@@ -63,6 +63,17 @@ input[type="time"] {
   box-shadow: none;
   box-sizing: border-box;
 }
+.created {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+.created a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
 
 .cita {
   padding: 2rem;
