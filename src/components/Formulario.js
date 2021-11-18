@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { v4 as uuid } from "uuid";
+import PropTypes from "prop-types";
 
 function Formulario({ crearCita }) {
   // Create appointment state
@@ -112,5 +113,9 @@ function Formulario({ crearCita }) {
     </div>
   );
 }
+
+Formulario.propTypes = {
+  crearCita: PropTypes.func.isRequired,
+};
 
 export default Formulario;
